@@ -6,7 +6,7 @@ xontrib load termcolors
 # XONSH WEBCONFIG START
 # XONSH WEBCONFIG END
 
-$PATH += ["/usr/local/bin", "/usr/local/anaconda3/bin"]
+$PATH = ["/usr/local/bin", "/usr/local/anaconda3/bin"] + $PATH
 
 $PROJECT_DIRS = ["~/git-repos"]
 
